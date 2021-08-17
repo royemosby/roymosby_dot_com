@@ -5,7 +5,7 @@ const projects = [
     "demo_link": "https://recipe-swap.herokuapp.com/",
     "repo_link": "https://github.com/royemosby/RecipeSwap",
     "blog_link": "https://www.roymosby.me/blog/multiple-relations/",
-    "technology": [
+    "technologies": [
       "Ruby",
       "Sinatra",
       "Active Record",
@@ -22,7 +22,7 @@ const projects = [
     "demo_link": "https://www.roymosby.me/blog/creating-space/",
     "repo_link": "https://github.com/royemosby/RoR-Newsroom",
     "blog_link": "https://www.roymosby.me/blog/creating-space/",
-    "technology": [
+    "technologies": [
       "Ruby",
       "Ruby on Rails",
       "bcrypt",
@@ -40,7 +40,7 @@ const projects = [
     "demo_link": "https://www.youtube.com/watch?v=uoh32yhh0-s",
     "repo_link": "https://github.com/royemosby/JAT-Iron",
     "blog_link": "https://www.roymosby.me/blog/code-re-use/",
-    "technology": [
+    "technologies": [
       "Ruby",
       "Ruby on Rails",
       "PostgreSQL",
@@ -56,7 +56,7 @@ const projects = [
     "demo_link": "https://www.youtube.com/watch?v=pE8qaCFf4J0",
     "repo_link": "https://github.com/royemosby/RecipeBook",
     "blog_link": "https://www.roymosby.me/blog/missing-dynamic-routes/",
-    "technology": [
+    "technologies": [
       "Ruby",
       "Ruby on Rails",
       "bcrypt",
