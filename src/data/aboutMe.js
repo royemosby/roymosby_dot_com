@@ -8,7 +8,7 @@ const longBioArray = [
 "I'm looking to make a positive impact at an organization that sees inclusivity as a strength rather than an obligation."]
 
 
-const contactInfo = {
+const contact = {
   twitter: "https://twitter.com/royemosby",
   linkedIn: "https://www.linkedin.com/in/roy-mosby/",
   gitHub: "https://github.com/royemosby",
@@ -16,4 +16,4 @@ const contactInfo = {
   blog: "https://www.roymosby.me/"
 }
 
-export {shortBioArray, longBioArray, contactInfo}
+export {shortBioArray, longBioArray, contact}
