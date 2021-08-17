@@ -3,6 +3,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Info from './components/Info';
+import Contact from './components/Contact';
 import Projects from './components/Projects'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
@@ -16,6 +17,7 @@ function App() {
           <Hero/>
           <Info/>
           <Projects/>
+          <Contact/>
           <Footer/>
         </div>
       </div>
