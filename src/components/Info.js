@@ -1,7 +1,19 @@
+import { shortBioArray } from "../data/aboutMe"
+
 export default function Info(){
+
+  function mapBioParas(){
+    return shortBioArray.map((para, idx) => {
+      return (
+        <p className="block" key={idx}>{para}</p>
+      )
+    })
+  }
+
   return(
     <div className="box">
-      <h2 className="is-size-4">About Roy</h2>
+      <h2 className="is-size-2 has-text-centered">About Roy</h2>
+      {mapBioParas()}
     </div>
   )
 }
