@@ -17,7 +17,7 @@ export default function Contact(){
             <textarea name="form-message" className="textarea" id="form-message" rows="10"></textarea>
           </div>
           <div className="control has-text-centered box">
-            <button className="button is-link">Submit</button>
+            <button className="button is-info">Send message</button>
           </div>
         </div>
       </form>
