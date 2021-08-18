@@ -1,5 +1,3 @@
-
-
 import Tags from './Tags'
 import Challenge from './Challenge'
 import styles from './ProjectCard.module.scss'
