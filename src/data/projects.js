@@ -2,9 +2,11 @@ const projects = [
   {
     "name": "RecipeSwap",
     "preview_image": "https://www.roymosby.me/images/recipeSwap.jpg",
-    "demo_link": "https://recipe-swap.herokuapp.com/",
-    "repo_link": "https://github.com/royemosby/RecipeSwap",
-    "blog_link": "https://www.roymosby.me/blog/multiple-relations/",
+    "links": {
+      "demo": "https://recipe-swap.herokuapp.com/",
+      "repo": "https://github.com/royemosby/RecipeSwap",
+      "blog": "https://www.roymosby.me/blog/multiple-relations/",
+    },
     "technologies": [
       "Ruby",
       "Sinatra",
@@ -19,9 +21,12 @@ const projects = [
   {
     "name": "RoR Newsroom",
     "preview_image": "https://www.roymosby.me/images/ror_newsroom.svg",
-    "demo_link": "https://www.roymosby.me/blog/creating-space/",
-    "repo_link": "https://github.com/royemosby/RoR-Newsroom",
-    "blog_link": "https://www.roymosby.me/blog/creating-space/",
+    "links": {
+
+      "demo": "https://www.roymosby.me/blog/creating-space/",
+      "repo": "https://github.com/royemosby/RoR-Newsroom",
+      "blog": "https://www.roymosby.me/blog/creating-space/",
+    },
     "technologies": [
       "Ruby",
       "Ruby on Rails",
@@ -37,9 +42,11 @@ const projects = [
   {
     "name": "JAT-Iron",
     "preview_image": "https://www.roymosby.me/images/jat-iron.svg",
-    "demo_link": "https://www.youtube.com/watch?v=uoh32yhh0-s",
-    "repo_link": "https://github.com/royemosby/JAT-Iron",
-    "blog_link": "https://www.roymosby.me/blog/code-re-use/",
+    "links":{
+      "demo": "https://www.youtube.com/watch?v=uoh32yhh0-s",
+      "repo": "https://github.com/royemosby/JAT-Iron",
+      "blog": "https://www.roymosby.me/blog/code-re-use/",
+    },
     "technologies": [
       "Ruby",
       "Ruby on Rails",
@@ -53,9 +60,11 @@ const projects = [
   {
     "name": "RecipeBook",
     "preview_image": "https://www.roymosby.me/images/og/rb.jpg",
-    "demo_link": "https://www.youtube.com/watch?v=pE8qaCFf4J0",
-    "repo_link": "https://github.com/royemosby/RecipeBook",
-    "blog_link": "https://www.roymosby.me/blog/missing-dynamic-routes/",
+    "links": {
+      "demo": "https://www.youtube.com/watch?v=pE8qaCFf4J0",
+      "repo": "https://github.com/royemosby/RecipeBook",
+      "blog": "https://www.roymosby.me/blog/missing-dynamic-routes/",
+    },
     "technologies": [
       "Ruby",
       "Ruby on Rails",
