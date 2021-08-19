@@ -12,7 +12,7 @@ export default function Info(){
 
   return(
     <div className="box">
-      <h2 className="is-size-2 has-text-centered">About Roy</h2>
+      <h2 className="is-size-2 has-text-centered title">About Roy</h2>
       {mapBioParas()}
     </div>
   )

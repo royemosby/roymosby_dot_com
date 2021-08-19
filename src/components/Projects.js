@@ -10,7 +10,7 @@ export default function Projects(){
   }
   return(
     <div className="box">
-      <h2 className="is-size-2 has-text-centered">Projects</h2>
+      <h2 className="is-size-2 has-text-centered title">Projects</h2>
         <div className="tile is-ancestor is-flex-wrap-wrap is-align-content-space-between">
       {addProjectCards()}
       </div>

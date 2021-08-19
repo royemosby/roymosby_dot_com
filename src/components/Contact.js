@@ -1,7 +1,7 @@
 export default function Contact(){
   return(
     <div className="box">
-      <h2 className="is-size-2 has-text-centered">Contact me</h2>
+      <h2 className="is-size-2 has-text-centered title">Contact me</h2>
       <form action="">
         <div className="field">
           <label htmlFor="form-name">Name</label>
