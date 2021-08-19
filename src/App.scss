@@ -22,5 +22,12 @@ body{
   background-image: linear-gradient(to top, #7b55d6 0%, #802e68 100%);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans&display=swap');
+
+// $family-sans-serif: "Open Sans", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+// ;
+
+$title-family: "Merriweather";
+
 
 @import '../node_modules/bulma/bulma.sass'
