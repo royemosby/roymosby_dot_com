@@ -25,15 +25,36 @@
   top: 0px
 }
 
-.card:hover .front{
-  transform: rotateY(-180deg);
+.isFlippedY{
+  & .front{
+    transform: rotateY(-180deg);
+  }
+  & .back{
+    transform: rotateY(0);
+  }
 }
 
+// .card:hover .front{
+//   transform: rotateY(-180deg);
+// }
 
-.card:hover .back{
-  transform: rotateY(0);
-}
+
+// .card:hover .back{
+//   transform: rotateY(0);
+// }
 
 .overflowScroll{
   overflow: scroll;
+}
+
+.absBottom{
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 12rem;
+  width: 50%;
+  & img {
+    height: 100%;
+  }
 }
